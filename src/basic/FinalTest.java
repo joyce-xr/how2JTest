@@ -1,3 +1,5 @@
+package basic;
+
 public class FinalTest {
     public void function1(){
         final int i = 1;

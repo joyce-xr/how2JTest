@@ -1,3 +1,5 @@
+package basic;
+
 public class InvestmentTest {
     public static void main(String[] args) {
         /**

@@ -1,3 +1,5 @@
+package basic;
+
 public class Item {
     String name; //名字
     float price;//价格

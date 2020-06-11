@@ -1,3 +1,5 @@
+package basic;
+
 public class BeggarTest {
 
     public static void main(String[] args) {

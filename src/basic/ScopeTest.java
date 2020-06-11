@@ -1,3 +1,5 @@
+package basic;
+
 public class ScopeTest {
     int i = 1;
     public static void function1 ( int i ){

@@ -1,3 +1,5 @@
+package basic;
+
 public class ItemTest {
     public static void main(String args[]){
         Item item1 = new Item("血瓶",100,1000,0,0,0);
