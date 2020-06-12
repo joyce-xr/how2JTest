@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6376c08-2aa3-493c-a239-cba146e0e41e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayReverseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/BubbleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArraySortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayTest/MaxRandomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayTest/MultiArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayTest/RandomArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrayTest/MinRandomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayTest/MinRandomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FinalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ItemTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScopeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TypeTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,28 +23,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrayTest/MinRandomTest.java">
+        <entry file="file://$PROJECT_DIR$/src/arrayTest/ArraySortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrayTest/ArrayReverseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/arrayTest/RandomArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="277">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arrayTest/ArrayMerge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arrayTest/BubbleSortTest.java">
+        <entry file="file://$PROJECT_DIR$/src/arrayTest/MultiArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="608">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -93,6 +99,11 @@
         <option value="$PROJECT_DIR$/src/arrayTest/MinRandomTest.java" />
         <option value="$PROJECT_DIR$/src/arrayTest/ArrayReverseTest.java" />
         <option value="$PROJECT_DIR$/src/arrayTest/BubbleSortTest.java" />
+        <option value="$PROJECT_DIR$/src/arrayTest/ArraySortTest.java" />
+        <option value="$PROJECT_DIR$/src/arrayTest/MaxRandomTest.java" />
+        <option value="$PROJECT_DIR$/src/arrayTest/RandomArray.java" />
+        <option value="$PROJECT_DIR$/src/arrayTest/ArrayMerge.java" />
+        <option value="$PROJECT_DIR$/src/arrayTest/MultiArrayTest.java" />
       </list>
     </option>
   </component>
@@ -117,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -137,10 +147,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="arrayTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="how2JTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="how2JTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,9 +181,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSortTest">
-    <configuration name="ArrayReverseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayReverseTest" />
+  <component name="RunManager" selected="Application.MultiArrayTest">
+    <configuration name="ArrayMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayMerge" />
+      <module name="how2JTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayTest.ArraySortTest" />
       <module name="how2JTest" />
       <extension name="coverage">
         <pattern>
@@ -191,21 +221,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaffodilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.controllerTestGather.DaffodilsTest" />
-      <module name="how2JTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.controllerTestGather.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinRandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.MinRandomTest" />
+    <configuration name="MaxRandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayTest.MaxRandomTest" />
       <module name="how2JTest" />
       <extension name="coverage">
         <pattern>
@@ -217,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestCalcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.controllerTestGather.NestCalcTest" />
+    <configuration name="MultiArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayTest.MultiArrayTest" />
       <module name="how2JTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.controllerTestGather.*" />
+          <option name="PATTERN" value="arrayTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiArrayTest" />
+        <item itemvalue="Application.ArrayMerge" />
+        <item itemvalue="Application.MaxRandomTest" />
+        <item itemvalue="Application.ArraySortTest" />
         <item itemvalue="Application.BubbleSortTest" />
-        <item itemvalue="Application.ArrayReverseTest" />
-        <item itemvalue="Application.MinRandomTest" />
-        <item itemvalue="Application.NestCalcTest" />
-        <item itemvalue="Application.DaffodilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +271,8 @@
       <workItem from="1591588685109" duration="2336000" />
       <workItem from="1591667123623" duration="18021000" />
       <workItem from="1591697988743" duration="352000" />
-      <workItem from="1591843056056" duration="13887000" />
+      <workItem from="1591843056056" duration="13943000" />
+      <workItem from="1591943423732" duration="9340000" />
     </task>
     <task id="LOCAL-00001" summary="test git">
       <created>1591445771814</created>
@@ -298,16 +316,23 @@
       <option name="project" value="LOCAL" />
       <updated>1591862371847</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="0611-upload-2">
+      <created>1591869680347</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591869680347</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41535000" />
+    <option name="totallyTimeSpent" value="50931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1895887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +411,8 @@
     <MESSAGE value="0609test" />
     <MESSAGE value="0609test2-upload" />
     <MESSAGE value="0611-upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="0611-upload" />
+    <MESSAGE value="0611-upload-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="0611-upload-2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/basicOne/GitTest.java" />
@@ -468,20 +494,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrayTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/basic.java" />
     <entry file="file://$PROJECT_DIR$/src/basic/Long$shortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -552,24 +566,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrayTest/ArrayReverseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/MinRandomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="323">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrayTest/MinRandomTest.java">
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/ArrayReverseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="283">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrayTest/BubbleSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/MaxRandomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/ArraySortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/RandomArray.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/ArrayMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/MultiArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
