@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6376c08-2aa3-493c-a239-cba146e0e41e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayMerge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArraySortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/MaxRandomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/MultiArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/RandomArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArraysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayTest/MultiArraySortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classAndObject/ObjTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classAndObject/character/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classAndObject/character1/Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classAndObject/property/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classAndObject/property/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayTest/RandomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayTest/RandomArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,37 +26,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrayTest/ArraySortTest.java">
+        <entry file="file://$PROJECT_DIR$/src/classAndObject/property/Armor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrayTest/RandomArray.java">
+        <entry file="file://$PROJECT_DIR$/src/classAndObject/property/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrayTest/ArrayMerge.java">
+        <entry file="file://$PROJECT_DIR$/src/classAndObject/ObjTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="304">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classAndObject/character/Hero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding>
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arrayTest/MultiArrayTest.java">
+        <entry file="file://$PROJECT_DIR$/src/classAndObject/character1/Support.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="228">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,9 +131,20 @@
         <option value="$PROJECT_DIR$/src/arrayTest/BubbleSortTest.java" />
         <option value="$PROJECT_DIR$/src/arrayTest/ArraySortTest.java" />
         <option value="$PROJECT_DIR$/src/arrayTest/MaxRandomTest.java" />
-        <option value="$PROJECT_DIR$/src/arrayTest/RandomArray.java" />
         <option value="$PROJECT_DIR$/src/arrayTest/ArrayMerge.java" />
         <option value="$PROJECT_DIR$/src/arrayTest/MultiArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/arrayTest/ArrayMergeTest.java" />
+        <option value="$PROJECT_DIR$/src/arrayTest/ArraysTest.java" />
+        <option value="$PROJECT_DIR$/src/arrayTest/RandomArray.java" />
+        <option value="$PROJECT_DIR$/src/arrayTest/MultiArraySortTest.java" />
+        <option value="$PROJECT_DIR$/src/classAndObject/ObjTest.java" />
+        <option value="$PROJECT_DIR$/src/classAndObject/Item.java" />
+        <option value="$PROJECT_DIR$/src/classAndObject/Armor.java" />
+        <option value="$PROJECT_DIR$/src/classAndObject/Support.java" />
+        <option value="$PROJECT_DIR$/src/classAndObject/Hero.java" />
+        <option value="$PROJECT_DIR$/src/classAndObject/property/Armor.java" />
+        <option value="$PROJECT_DIR$/src/classAndObject/character/Hero.java" />
+        <option value="$PROJECT_DIR$/src/classAndObject/character1/Support.java" />
       </list>
     </option>
   </component>
@@ -128,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -145,19 +187,33 @@
               <item name="how2JTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="how2JTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arrayTest" type="462c0819:PsiDirectoryNode" />
+              <item name="classAndObject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="how2JTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="how2JTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="classAndObject" type="462c0819:PsiDirectoryNode" />
+              <item name="character" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="how2JTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="how2JTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="classAndObject" type="462c0819:PsiDirectoryNode" />
+              <item name="character1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="how2JTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="how2JTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="classAndObject" type="462c0819:PsiDirectoryNode" />
+              <item name="property" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,7 +223,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,9 +240,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiArrayTest">
-    <configuration name="ArrayMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayMerge" />
+  <component name="RunManager" selected="Application.Hero">
+    <configuration name="Armor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classAndObject.property.Armor" />
+      <module name="how2JTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classAndObject.character.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classAndObject.character.Hero" />
+      <module name="how2JTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classAndObject.character.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiArraySortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayTest.MultiArraySortTest" />
       <module name="how2JTest" />
       <extension name="coverage">
         <pattern>
@@ -195,12 +280,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.ArraySortTest" />
+    <configuration name="ObjTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classAndObject.ObjTest" />
       <module name="how2JTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayTest.*" />
+          <option name="PATTERN" value="classAndObject.character.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,38 +293,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.BubbleSortTest" />
+    <configuration name="Support" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classAndObject.character1.Support" />
       <module name="how2JTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxRandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.MaxRandomTest" />
-      <module name="how2JTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.MultiArrayTest" />
-      <module name="how2JTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayTest.*" />
+          <option name="PATTERN" value="classAndObject.character.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultiArrayTest" />
-        <item itemvalue="Application.ArrayMerge" />
-        <item itemvalue="Application.MaxRandomTest" />
-        <item itemvalue="Application.ArraySortTest" />
-        <item itemvalue="Application.BubbleSortTest" />
+        <item itemvalue="Application.Hero" />
+        <item itemvalue="Application.Support" />
+        <item itemvalue="Application.Armor" />
+        <item itemvalue="Application.ObjTest" />
+        <item itemvalue="Application.MultiArraySortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +331,8 @@
       <workItem from="1591667123623" duration="18021000" />
       <workItem from="1591697988743" duration="352000" />
       <workItem from="1591843056056" duration="13943000" />
-      <workItem from="1591943423732" duration="9340000" />
+      <workItem from="1591943423732" duration="9460000" />
+      <workItem from="1592183373933" duration="15556000" />
     </task>
     <task id="LOCAL-00001" summary="test git">
       <created>1591445771814</created>
@@ -323,16 +383,30 @@
       <option name="project" value="LOCAL" />
       <updated>1591869680347</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0612-upload">
+      <created>1591955544963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591955544963</updated>
+    </task>
+    <task id="LOCAL-00009" summary="0615-rename">
+      <created>1592187583089</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592187583090</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50931000" />
+    <option name="totallyTimeSpent" value="66607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1895887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19215938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +425,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2920592" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -412,7 +486,9 @@
     <MESSAGE value="0609test2-upload" />
     <MESSAGE value="0611-upload" />
     <MESSAGE value="0611-upload-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="0611-upload-2" />
+    <MESSAGE value="0612-upload" />
+    <MESSAGE value="0615-rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="0615-rename" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/basicOne/GitTest.java" />
@@ -431,13 +507,6 @@
             <element signature="e#65#66#0" expanded="true" />
             <element signature="e#113#114#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -597,30 +666,190 @@
     <entry file="file://$PROJECT_DIR$/src/arrayTest/ArraySortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrayTest/RandomArray.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="209">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrayTest/ArrayMerge.java">
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/ArrayMergeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrayTest/MultiArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="301">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/RandomArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/MultiArraySortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrayTest/ArraysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="942">
+          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classAndObject/property/Armor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classAndObject/property/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classAndObject/ObjTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classAndObject/character/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classAndObject/character1/Support.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>how2JTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

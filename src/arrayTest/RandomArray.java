@@ -38,4 +38,25 @@ public class RandomArray {
 
         return a;
     }
+
+    public int[][] getRandomIntMultiArray(int l1, int l2){//l1-一维长度；l2-二维长度
+
+        int[][] a = new int[l1][l2];
+
+        for(int i=0; i<l1; i++){
+            for(int j=0; j<l2; j++){
+                a[i][j] = (int) (Math.random()*100);
+            }
+        }
+
+        System.out.println("打印原始二维数组：");
+        for(int i=0; i<l1; i++){
+            for(int j=0; j<l2; j++){
+                System.out.print(a[i][j] + "\t");
+            }
+            System.out.println();
+        }
+
+        return a;
+    }
 }
