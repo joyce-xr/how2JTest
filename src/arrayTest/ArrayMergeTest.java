@@ -1,6 +1,6 @@
 package arrayTest;
 
-public class ArrayMerge {
+public class ArrayMergeTest {
     /**
      * 首先准备两个数组，他俩的长度是5-10之间的随机数，并使用随机数初始化这两个数组     *
      * 然后准备第三个数组，第三个数组的长度是前两个的和
