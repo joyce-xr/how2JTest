@@ -9,6 +9,8 @@ public class Hero {
 
     int moveSpeed; //移动速度
 
+    static String copyRight;
+
     public Hero(){
 
     }
@@ -58,12 +60,34 @@ public class Hero {
 //        System.out.println(teemo.hp);
 
 
-        //提莫受到400点伤害
-        teemo.hp = teemo.hp - 400;
-        //复活
-        teemo.revive(teemo);
-        //此时teemo的血量
-        System.out.println(teemo.hp);
+//        //提莫受到400点伤害
+//        teemo.hp = teemo.hp - 400;
+//        //复活
+//        teemo.revive(teemo);
+//        //此时teemo的血量
+//        System.out.println(teemo.hp);
+
+        /**
+         * 静态属性
+         * 可以通过类访问，也可通过对象访问
+         */
+//        {
+//            Hero garen = new Hero();
+//
+//            Hero.copyRight = "copyRight1111111";
+//            System.out.println(garen.copyRight);
+//
+//            garen.copyRight = "copyRight2222222";
+//            System.out.println(teemo.copyRight);
+//
+//            System.out.println(garen.copyRight);
+//
+//            System.out.println(Hero.copyRight);
+//        }
+
+
+
+
 
     }
 
