@@ -46,6 +46,17 @@ public class Hero {
         //h.hp = 383;
     }
 
+    //实例方法
+    public void die(){
+        hp=0;
+    }
+
+    //类方法
+    public static void printGameDuration(){
+        //die(); //类方法中不能直接调用实例方法
+        System.out.println("您已经在线XX小时了");
+    }
+
     public static void main(String[] args) {
         Hero teemo =  new Hero("提莫",383);
 //        //血瓶，其值是100
