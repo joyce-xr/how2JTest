@@ -1,4 +1,4 @@
-package interfaceAndImplement;
+package interfaceAndImplement.charactor;
 
 import classAndObject.character.Hero;
 
