@@ -18,6 +18,11 @@ public class Support extends Hero {
         System.out.println(name + "给【" + h.name +"】治疗了 " + hp);
     }
 
+
+
+
+
+
     public static void main(String[] args) {
         Support support = new Support();
         support.name = "华佗";

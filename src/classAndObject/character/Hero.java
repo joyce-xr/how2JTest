@@ -3,7 +3,7 @@ package classAndObject.character;
 public class Hero {
     public String name; //姓名
 
-    float hp; //血量
+    protected float hp; //血量
 
     float armor; //护甲
 

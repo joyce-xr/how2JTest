@@ -2,14 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6376c08-2aa3-493c-a239-cba146e0e41e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classAndObject/PropertyInitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classAndObject/SingletonTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classAndObject/character/GiantDragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classAndObject/character/GiantDragon2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classAndObject/character/SingletonHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classAndObject/property/SingletonItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceAndImplement/Healer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceAndImplement/Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/how2JTest.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/arrayTest/ArrayMergeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/arrayTest/ArrayReverseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/arrayTest/ArraySortTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/arrayTest/ArraysTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/arrayTest/BubbleSortTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/arrayTest/MaxRandomTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/arrayTest/MinRandomTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/arrayTest/MultiArraySortTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/arrayTest/MultiArrayTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/arrayTest/RandomArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/BMITest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/BeggarTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/ContinueTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/FactorialTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/FinalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/InvestmentTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/ItemTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/LeepYearTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/Long$shortTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/ScopeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/SwitchTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/TypeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/WorkDayTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/controllerTestGather/DaffodilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/controllerTestGather/GoldenDividerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/basic/controllerTestGather/NestCalcTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/ObjTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/ObjectNumLimit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/ObjectNumLimitTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/PropertyInitTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/SingletonTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/character/GiantDragon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/character/GiantDragon2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/character/Hero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/character/SingletonHero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/character1/Support.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/property/Armor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/property/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/classAndObject/property/SingletonItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaceAndImplement/Healer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaceAndImplement/Support.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classAndObject/character/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classAndObject/character/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classAndObject/character1/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classAndObject/character1/Support.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,23 +65,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classAndObject/character/SingletonHero.java">
+        <entry file="file://$PROJECT_DIR$/src/interfaceAndImplement/Healer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-              <folding>
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classAndObject/property/SingletonItem.java">
+        <entry file="file://$PROJECT_DIR$/src/interfaceAndImplement/Support.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="133">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classAndObject/character/Hero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="17" selection-start-line="17" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="209">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -60,6 +100,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -110,16 +151,18 @@
         <option value="$PROJECT_DIR$/src/classAndObject/Support.java" />
         <option value="$PROJECT_DIR$/src/classAndObject/Hero.java" />
         <option value="$PROJECT_DIR$/src/classAndObject/property/Armor.java" />
-        <option value="$PROJECT_DIR$/src/classAndObject/character1/Support.java" />
         <option value="$PROJECT_DIR$/src/classAndObject/ObjectNumLimitTest.java" />
         <option value="$PROJECT_DIR$/src/classAndObject/ObjectNumLimit.java" />
-        <option value="$PROJECT_DIR$/src/classAndObject/character/Hero.java" />
         <option value="$PROJECT_DIR$/src/classAndObject/PropertyInitTest.java" />
         <option value="$PROJECT_DIR$/src/classAndObject/SingletonTest1.java" />
         <option value="$PROJECT_DIR$/src/classAndObject/character/GiantDragon.java" />
         <option value="$PROJECT_DIR$/src/classAndObject/character/GiantDragon2.java" />
         <option value="$PROJECT_DIR$/src/classAndObject/property/SingletonItem.java" />
         <option value="$PROJECT_DIR$/src/classAndObject/character/SingletonHero.java" />
+        <option value="$PROJECT_DIR$/src/classAndObject/character1/Support.java" />
+        <option value="$PROJECT_DIR$/src/interfaceAndImplement/Healer.java" />
+        <option value="$PROJECT_DIR$/src/classAndObject/character/Hero.java" />
+        <option value="$PROJECT_DIR$/src/interfaceAndImplement/Support.java" />
       </list>
     </option>
   </component>
@@ -130,11 +173,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="460" />
-    <option name="y" value="96" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="183" />
+    <option name="y" value="106" />
     <option name="width" value="1135" />
-    <option name="height" value="532" />
+    <option name="height" value="663" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,7 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,11 +200,30 @@
               <item name="how2JTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="how2JTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="how2JTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="classAndObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="how2JTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="how2JTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="classAndObject" type="462c0819:PsiDirectoryNode" />
+              <item name="character" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="how2JTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="how2JTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaceAndImplement" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,26 +250,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonHero">
+  <component name="RunManager" selected="Application.Support">
     <configuration name="Hero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classAndObject.character.Hero" />
       <module name="how2JTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classAndObject.character.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectNumLimitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classAndObject.ObjectNumLimitTest" />
-      <module name="how2JTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classAndObject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,13 +303,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Support" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaceAndImplement.Support" />
+      <module name="how2JTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaceAndImplement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Support" />
         <item itemvalue="Application.SingletonHero" />
         <item itemvalue="Application.SingletonTest1" />
         <item itemvalue="Application.PropertyInitTest" />
         <item itemvalue="Application.Hero" />
-        <item itemvalue="Application.ObjectNumLimitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +346,10 @@
       <workItem from="1592271498595" duration="3259000" />
       <workItem from="1593329434007" duration="3737000" />
       <workItem from="1593409984962" duration="5534000" />
-      <workItem from="1593567332940" duration="8187000" />
+      <workItem from="1593567332940" duration="8856000" />
+      <workItem from="1593656610343" duration="4500000" />
+      <workItem from="1594863567872" duration="1642000" />
+      <workItem from="1595310259769" duration="1837000" />
     </task>
     <task id="LOCAL-00001" summary="test git">
       <created>1591445771814</created>
@@ -363,16 +428,24 @@
       <option name="project" value="LOCAL" />
       <updated>1593336256884</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0701-upload">
+      <created>1593594332724</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593594332724</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87953000" />
+    <option name="totallyTimeSpent" value="96601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="460" y="96" width="1135" height="532" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15906976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19858612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,7 +454,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23057644" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16419919" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39838493" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,7 +528,8 @@
     <MESSAGE value="0612-upload" />
     <MESSAGE value="0615-rename" />
     <MESSAGE value="0615-upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="0615-upload" />
+    <MESSAGE value="0701-upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="0701-upload" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/basicOne/GitTest.java" />
@@ -711,13 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classAndObject/character1/Support.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classAndObject/ObjectNumLimit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -767,28 +834,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classAndObject/character/Hero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="17" selection-start-line="17" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classAndObject/character/SingletonHero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="570">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classAndObject/property/SingletonItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="152">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classAndObject/character1/Support.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classAndObject/character/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceAndImplement/Healer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceAndImplement/Support.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
