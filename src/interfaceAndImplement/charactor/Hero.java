@@ -14,7 +14,15 @@ public class Hero {
     public String name;
     protected float hp;//血量
 
-    public void useItem(Item i){
+    public Hero(){
+        System.out.println("hero的无参构造器");
+    }
+
+    public Hero(String name){
+        System.out.println("hero的有参构造器");
+    }
+
+  public void useItem(Item i){
         i.effect();
     }
 
@@ -76,16 +84,36 @@ public class Hero {
         /**
          * test4
          */
-        Hero.battleWin();
-        ADHero.battleWin();
+//        Hero.battleWin();
+//        ADHero.battleWin();
+//
+//        Hero h = new ADHero();
+//        h.battleWin();
 
-        Hero h = new ADHero();
-        h.battleWin();
+        /**
+         * test5
+         */
+//        new ADHero();
+//        new ADHero("haha");
+
+        /**
+         * test6
+         */
+//        System.out.println(new Hero());
+//        System.out.println(new Hero().toString());
 
     }
 }
 
 class ADHero extends Hero implements AD,Mortal {
+
+    public ADHero(){
+        System.out.println("ADHero的无参构造器");
+    }
+
+    public ADHero(String name){
+        System.out.println("ADHero的有参构造器");
+    }
 
     @Override
     public void physicAttack() {
@@ -135,6 +163,12 @@ class ADAPHero extends Hero implements AD,AP,Mortal {
     public void die() {
         System.out.println("这是ADAPHero的die方法");
     }
+
+    @Override
+    public void attack() {
+        System.out.println("ADAPHero attack");
+    }
+
 }
 
 
