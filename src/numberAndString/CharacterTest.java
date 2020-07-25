@@ -1,5 +1,4 @@
 package numberAndString;
-
 import java.util.Scanner;
 
 
@@ -15,8 +14,164 @@ public class CharacterTest {
         //stringArrayRank(8);
 
         //练习4：
-        decryption();
+        //decryption();
 
+        //练习5：
+        //upperFirstLetter();
+
+        //练习6：
+        //countTwister('p');
+
+        //练习7
+        //lengendary();
+
+        //练习8
+        //lengendary2();
+
+        //练习9
+        //changeLastTwo();
+
+        //练习10
+        //countRepeat();
+
+
+    }
+
+    /**
+     * 练习10：
+     * 创建一个长度是100的字符串数组
+     * 使用长度是2的随机字符填充该字符串数组
+     * 统计这个字符串数组里重复的字符串有多少种
+     */
+    public static void countRepeat(){
+
+        //创建并打印长度是100的字符串数组，每20个一行
+        String[] arrays = new String[100];
+        for(int i=0; i<100; i++){
+            arrays[i] = randomChars(2);
+            System.out.printf("%s ",arrays[i]);
+            if((i+1)%20 == 0){
+                System.out.println();
+            }
+        }
+
+        String[] duplicate = new String[50];//存储重复的字符串数组
+        int count = 0;//重复的字符串个数
+        outloop:
+        for(int i=0; i<100; i++){
+            for(int j=i+1; j<100; j++){
+                if(arrays[i].equals(arrays[j])){
+                    for(String s : duplicate){//遍历重复数组，看arrays[i]是否已经在其中
+                        System.out.println("测试：遍历重复数组");
+                        if(arrays[i].equals(s)){//如果已经在，则直接进入下一次循环
+                            continue outloop;
+                        }
+                    }
+                    duplicate[count++] = arrays[i];//如果不在重复数组中，则加入并计数
+                    break;
+                }
+            }
+        }
+
+        //输出结果
+        System.out.printf("共有%d种重复的字符串%n",count);
+        if(count>0){
+            System.out.print("它们是：");
+            for(int i=0; i<count; i++){
+                System.out.printf("%s ",duplicate[i]);
+            }
+        }
+    }
+
+    /**
+     * 练习9：
+     * Nature has given us that two ears, two eyes, and but one tongue, to the end that we should hear and see more than we speak
+     * 把最后一个two单词首字母大写
+     */
+    public static void changeLastTwo(){
+        String sentence = "Nature has given us that two ears, two eyes, and but one tongue, " +
+                "to the end that we should hear and see more than we speak";
+        char[]  sentenceArrays = sentence.toCharArray();
+        //找到最后一个two，获取到所在位置 lastIndexOf
+        int index = sentence.lastIndexOf("two");
+        //System.out.println(index);
+        sentenceArrays[index] = Character.toUpperCase(sentenceArrays[index]);
+        System.out.println(sentenceArrays);
+    }
+
+    /**
+     * 练习8：把 lengendary 最后一个字母变大写
+     */
+    public static void lengendary2(){
+        //把字符串转化为char数组，然后根据数组索引值能否被2整除判断大写还是小写，组成新的字符串
+        String letter = "lengendary";
+        char[] charsLetter = letter.toCharArray();
+
+        char last = Character.toUpperCase(charsLetter[charsLetter.length-1]);//最后一个字母转大写
+        charsLetter[charsLetter.length-1] = last;
+
+        System.out.println(charsLetter);
+    }
+
+    /**
+     * 练习7：把 lengendary 改成间隔大写小写模式，即 LeNgEnDaRy
+     */
+    public static void lengendary(){
+        //把字符串转化为char数组，然后根据数组索引值能否被2整除判断大写还是小写，组成新的字符串
+        String letter = "lengendary";
+        String result = "";
+        char[] charsLetter = letter.toCharArray();
+        for (int i=1; i<=charsLetter.length; i++){
+            if(i%2 != 0){//奇数位字母转大写
+                //result = result + String.valueOf(charsLetter[i-1]).toUpperCase();
+                result = result + Character.toUpperCase(charsLetter[i-1]);
+            }else{//偶数位的不用转，直接拼接
+                result = result + charsLetter[i-1];
+            }
+        }
+        System.out.println(result);
+    }
+
+    /**
+     * 练习6：
+     * 英文绕口令：peter piper picked a peck of pickled peppers
+     * 统计这段绕口令有多少个以p开头的单词
+     * @param aimWord   要统计的目标字母
+     * @return 统计结果（个）
+     */
+    public static int countTwister(char aimWord){
+
+        String sentence = "peter piper picked a peck of pickled peppers";
+        int count = 0;
+
+        String[] splitS = sentence.split(" ");//把语句按单词分割为字符串数组
+        for (int i=0; i<splitS.length; i++){
+            if((splitS[i].charAt(0)) == aimWord){ //单词首字母是否是目标字母p
+                count++;
+            }
+        }
+        System.out.println(count);
+        return count;
+    }
+
+    /**
+     * 练习5：
+     * 给出一句英文句子： "let there be light"
+     * 得到一个新的字符串，每个单词的首字母都转换为大写
+     */
+    public static void upperFirstLetter(){
+        String sentence = "let there be light";
+        String[] splitS = sentence.split(" ");//把语句按单词分割为字符串数组
+
+        String[] temp = new String[splitS.length];//用于存放首字母大写后的字符串数组
+        String result="";
+        for (int i=0;i<splitS.length;i++){
+            String a = String.valueOf(splitS[i].charAt(0));//单词首字母
+            temp[i]=splitS[i].replaceFirst(a,a.toUpperCase());//首字母替换为大写
+            result = result + temp[i] + " ";
+        }
+
+        System.out.println(result);
     }
 
     /**
