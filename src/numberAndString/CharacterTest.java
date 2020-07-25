@@ -32,7 +32,7 @@ public class CharacterTest {
         //changeLastTwo();
 
         //练习10
-        //countRepeat();
+        countRepeat();
 
 
     }
@@ -61,9 +61,9 @@ public class CharacterTest {
         for(int i=0; i<100; i++){
             for(int j=i+1; j<100; j++){
                 if(arrays[i].equals(arrays[j])){
-                    for(String s : duplicate){//遍历重复数组，看arrays[i]是否已经在其中
+                    for(int k=0; k<count; k++){//遍历重复数组，看arrays[i]是否已经在其中
                         System.out.println("测试：遍历重复数组");
-                        if(arrays[i].equals(s)){//如果已经在，则直接进入下一次循环
+                        if(arrays[i].equals(duplicate[k])){//如果已经在，则直接进入下一次循环
                             continue outloop;
                         }
                     }
