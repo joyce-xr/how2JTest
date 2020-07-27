@@ -32,7 +32,7 @@ public class CharacterTest {
         //changeLastTwo();
 
         //练习10
-        countRepeat();
+        //countRepeat();
 
 
     }
