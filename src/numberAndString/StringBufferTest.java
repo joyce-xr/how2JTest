@@ -6,7 +6,7 @@ public class StringBufferTest {
 
     public static void main(String[] args) {
 
-        //basicFunction();
+        basicFunction();
         //lengthAndCapacity();
         //stringPerformance();
         //stringBufferPerformance();
@@ -42,14 +42,13 @@ public class StringBufferTest {
         StringBuffer stringBuffer = new StringBuffer();
 
         long startTime = System.currentTimeMillis();
-        for (int i=0; i<10000; i++){
+        for (int i=0; i<1000000; i++){
             stringBuffer.append(randomChars(10));
         }
         long endTime = System.currentTimeMillis();
 
         long consumeTime = endTime - startTime;
-        System.out.println(consumeTime);
-        System.out.println(stringBuffer);
+        System.out.println("使用StringBuffer,连接1000000个随机字符串,计算消耗的时间为:" + consumeTime);
 
     }
 
@@ -75,7 +74,7 @@ public class StringBufferTest {
         System.out.println(stringBuffer);
 
         //删除4-10之间的字符
-        stringBuffer.delete(4,10);//保留end
+        stringBuffer.delete(4,4);//保留end
         System.out.println(stringBuffer);
 
         //在4这个位置插入 there
