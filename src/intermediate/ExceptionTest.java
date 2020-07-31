@@ -7,15 +7,15 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class exceptionTest {
+public class ExceptionTest {
 
     public static void main(String[] args) {
 
         //test1();
-        //method1();
+        method1();
         //System.out.println(method());
 
-        runtimeExceptionTest();
+        //runtimeExceptionTest();
     }
 
     private static void runtimeExceptionTest(){
@@ -62,13 +62,16 @@ public class exceptionTest {
 
         try {
             method2();
-        } catch (FileNotFoundException e) {
+
+        } catch (Throwable e) {
+       //} catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }
 
-    private static void method2() throws FileNotFoundException {
+    //private static void method2() throws FileNotFoundException {
 
+    private static void method2() throws Throwable {
         System.out.println("执行method2");
 
         String filePath = "D:/hello.txt";
@@ -90,7 +93,7 @@ public class exceptionTest {
             System.out.printf("尝试打开文件 [%s]%n" ,filePath);
             new FileInputStream(f);
             System.out.println("文件打开成功");
-        } catch (FileNotFoundException e) {
+        } catch (Throwable e) {
             System.out.printf("[%s] 文件不存在%n",filePath);
             e.printStackTrace();
         }

@@ -1,5 +1,6 @@
 package primary.interfaceAndImplement.charactor;
 
+import intermediate.EnemyHeroIsDeadException;
 import primary.interfaceAndImplement.property.Item;
 
 
@@ -9,30 +10,39 @@ import primary.interfaceAndImplement.property.Item;
 public class Hero {
 
     public String name;
-    protected float hp;//血量
+    public float hp;//血量
 
     public Hero(){
         System.out.println("hero的无参构造器");
     }
 
     public Hero(String name){
+        this.name = name;
         System.out.println("hero的有参构造器");
     }
 
-  public void useItem(Item i){
-        i.effect();
-    }
+    //异常练习：当被攻击的英雄血量为0时，抛出异常
+    public void attackHero(Hero h) throws EnemyHeroIsDeadException {
 
-    public void kill(Mortal m){
-        m.die();
-    }
-
-    public static void battleWin(){
-        System.out.println("Hero battleWin");
+        if(h.hp == 0){
+            throw new EnemyHeroIsDeadException(h.name + " 已经挂了,不需要施放技能");
+        }
     }
 
 
     public static void main(String[] args) {
+
+        //异常练习：
+//        Hero h1 = new Hero("大英雄");
+//        Hero h2 = new Hero("小英雄");
+//        h2.hp = 0;
+//        try {
+//            h1.attackHero(h2);
+//        } catch (EnemyHeroIsDeadException e) {//当被攻击的英雄血量为0时,捕获异常
+//            System.out.println("异常原因："+e.getMessage());
+//            e.printStackTrace();
+//        }
+
         /**
          * test1
          */
@@ -100,7 +110,20 @@ public class Hero {
 //        System.out.println(new Hero().toString());
 
     }
+
+    public void useItem(Item i){
+        i.effect();
+    }
+
+    public void kill(Mortal m){
+        m.die();
+    }
+
+    public static void battleWin(){
+        System.out.println("Hero battleWin");
+    }
 }
+
 
 class ADHero extends Hero implements AD,Mortal {
 

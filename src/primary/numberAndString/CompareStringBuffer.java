@@ -1,5 +1,8 @@
 package primary.numberAndString;
 
+import intermediate.IndexIsNagetiveException;
+import intermediate.IndexIsOutofRangeException;
+
 import static primary.numberAndString.CharacterTest.randomChars;
 
 public class CompareStringBuffer {
@@ -10,7 +13,13 @@ public class CompareStringBuffer {
         MyStringBuffer msb = new MyStringBuffer();
         long startTime = System.currentTimeMillis();
         for (int i=0; i<1000000; i++){
-            msb.append(randomChars(10));
+            try {
+                msb.append(randomChars(10));
+            } catch (IndexIsOutofRangeException e) {
+                e.printStackTrace();
+            } catch (IndexIsNagetiveException e) {
+                e.printStackTrace();
+            }
         }
         long endTime = System.currentTimeMillis();
 

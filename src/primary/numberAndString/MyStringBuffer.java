@@ -1,5 +1,8 @@
 package primary.numberAndString;
 
+import intermediate.IndexIsNagetiveException;
+import intermediate.IndexIsOutofRangeException;
+
 public class MyStringBuffer implements IStringBuffer {
 
     int capacity = 16;
@@ -39,32 +42,48 @@ public class MyStringBuffer implements IStringBuffer {
     }
 
     @Override
-    public void append(String str) {
+    public void append(String str) throws IndexIsOutofRangeException, IndexIsNagetiveException {
 
-        if(capacity < length + str.length()){//如果长度不足，则需要扩容
-            expansion(str.length());
-        }
+//        if(capacity < length + str.length()){//如果长度不足，则需要扩容
+//            expansion(str.length());
+//        }
+//
+//        System.arraycopy(str.toCharArray(),0,value,length,str.length());
+//        length = length + str.length();
 
-        System.arraycopy(str.toCharArray(),0,value,length,str.length());
-        length = length + str.length();
-        //System.out.println(value);
+        insert(length,str);
 
     }
 
     @Override
-    public void append(char c) {
+    public void append(char c) throws IndexIsOutofRangeException, IndexIsNagetiveException {
         append(String.valueOf(c));
 
     }
 
     @Override
-    public void insert(int pos, char c) {
+    public void insert(int pos, char c) throws IndexIsOutofRangeException, IndexIsNagetiveException {
         insert(pos,String.valueOf(c));
 
     }
 
     @Override
-    public void insert(int pos, String str) {
+    public void insert(int pos, String str) throws IndexIsNagetiveException, IndexIsOutofRangeException {
+
+        //pos<0，抛出IndexIsNagetiveException 异常
+        if(pos < 0){
+            throw new IndexIsNagetiveException("pos参数不能小于0");
+        }
+
+        //pos>length，抛出IndexIsOutofRangeException 异常
+        if(pos > length){
+            throw new IndexIsOutofRangeException("pos参数超出范围："+ length);
+        }
+
+        // str == null ,抛出NullPointException
+        if(str == null || str.equals("")){
+            throw new NullPointerException("str参数不能为空");
+        }
 
         //将value拆分为两个数组（0~pos-1；pos~length-1）
         char[] first = new char[pos];
@@ -88,17 +107,35 @@ public class MyStringBuffer implements IStringBuffer {
     }
 
     @Override
-    public void delete(int start) {
+    public void delete(int start) throws IndexIsOutofRangeException, IndexIsNagetiveException {
         delete(start,length);
 
     }
 
     @Override
-    public void delete(int start, int end) {
-        if(start > end || start < 0 || end < 0 || end > length){
-            System.out.println("参数不合法");
-            return;
+    public void delete(int start, int end) throws IndexIsNagetiveException, IndexIsOutofRangeException {
+
+        //start<0 或 end<0，抛出IndexIsNagetiveException
+        if(start<0){
+            throw new IndexIsNagetiveException("start参数不能小于0");
         }
+        if(end<0){
+            throw new IndexIsNagetiveException("end参数不能小于0");
+        }
+
+        //end > length 或 start > end , 抛出 IndexIsOutofRangeException
+        if(end>length){
+            throw  new IndexIsOutofRangeException("end不能超出字符串总长度");
+        }
+        if(start>end){
+            throw  new IndexIsOutofRangeException("start不能大于end");
+        }
+
+
+//        if(start > end || start < 0 || end < 0 || end > length){
+//            System.out.println("参数不合法");
+//            return;
+//        }
 
         char[] temp = value;
         System.out.println(temp);
@@ -145,5 +182,22 @@ public class MyStringBuffer implements IStringBuffer {
 
         //new MyStringBuffer("ABCDEFGHIJKL").delete(3,3);
         //new MyStringBuffer("ABCDEFGHIJKL").delete(6);
+
+        //异常测试
+//        try {
+//            new MyStringBuffer("Test1234567890test").insert(1,"");
+//        } catch (IndexIsOutofRangeException e) {
+//            e.printStackTrace();
+//        } catch (IndexIsNagetiveException e) {
+//            e.printStackTrace();
+//        }
+
+        try {
+            new MyStringBuffer("ABCDEFGHIJKL").delete(1,13);
+        } catch (IndexIsOutofRangeException e) {
+            e.printStackTrace();
+        } catch (IndexIsNagetiveException e) {
+            e.printStackTrace();
+        }
     }
 }
