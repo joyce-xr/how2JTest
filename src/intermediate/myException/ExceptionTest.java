@@ -1,4 +1,4 @@
-package intermediate;
+package intermediate.myException;
 
 import primary.interfaceAndImplement.practice.Fish;
 

@@ -1,4 +1,4 @@
-package intermediate;
+package intermediate.myException;
 
 /**
  * 下标超出范围异常

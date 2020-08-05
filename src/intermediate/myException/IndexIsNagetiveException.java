@@ -1,4 +1,4 @@
-package intermediate;
+package intermediate.myException;
 
 /**
  * 下标为负异常
