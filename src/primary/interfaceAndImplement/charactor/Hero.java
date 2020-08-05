@@ -1,6 +1,6 @@
 package primary.interfaceAndImplement.charactor;
 
-import intermediate.EnemyHeroIsDeadException;
+import intermediate.myException.EnemyHeroIsDeadException;
 import primary.interfaceAndImplement.property.Item;
 
 

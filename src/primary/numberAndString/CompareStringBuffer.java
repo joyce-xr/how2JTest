@@ -1,7 +1,7 @@
 package primary.numberAndString;
 
-import intermediate.IndexIsNagetiveException;
-import intermediate.IndexIsOutofRangeException;
+import intermediate.myException.IndexIsNagetiveException;
+import intermediate.myException.IndexIsOutofRangeException;
 
 import static primary.numberAndString.CharacterTest.randomChars;
 
