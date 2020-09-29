@@ -112,8 +112,13 @@ class Hero{
         this.name = name;
     }
 
+    public Hero(String name,float hp){
+        this.name = name;
+        this.hp = hp;
+    }
+
     public String toString(){
-        return name;
+        return name+"-"+hp;
     }
 
 }
