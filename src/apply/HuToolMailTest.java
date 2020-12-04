@@ -16,9 +16,9 @@ public class HuToolMailTest {
         account.setHost("smtp.163.com");
         account.setPort(25);
         account.setAuth(true);
-        account.setFrom("joyfully_xr@163.com");
-        account.setUser("joyfully_xr@163.com");
-        account.setPass("xinran0949@wy163");
+        account.setFrom("");
+        account.setUser("");
+        account.setPass("");
 
     }
 

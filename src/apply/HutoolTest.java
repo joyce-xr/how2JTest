@@ -59,7 +59,7 @@ public class HutoolTest {
         String remoteFile4Download = "jsb_20191021_1.sql";
         String ftpServer = "172.23.2.1";
         String ftpUser = "ftpuser";
-        String ftpPsw = "ftpuser";
+        String ftpPsw = "";
 
         Ftp ftp = new Ftp(ftpServer,21,ftpUser,ftpPsw);
 
