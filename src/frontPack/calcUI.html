@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习1-计算器</title>
+
+    <script>
+
+        function sum(){
+            var a = document.getElementById("num1").value;
+            var b = document.getElementById("num2").value;
+            document.getElementById("result").value = Number(a)+Number(b);
+        }
+
+    </script>
+
+</head>
+<body>
+
+<input id="num1" placeholder="请输入" />
++
+<input id="num2" placeholder="请输入" />
+=
+<input id="result" />
+
+<button onclick="sum()">运算</button>
+
+
+
+</body>
