@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="generate.js"></script>
+
+</head>
+<body>
+    <table>
+        <tr>
+            <td>地名：</td>
+            <td><input type="text" id="location"></td>
+            <td>公司类型：</td>
+            <td><input type="text" id="companyType"></td>
+        </tr>
+        <tr>
+            <td>公司名称：</td>
+            <td><input type="text" id="companyName"></td>
+            <td>老板姓名：</td>
+            <td><input type="text" id="bossName"></td>
+        </tr>
+        <tr>
+            <td>money：</td>
+            <td><input type="text" id="money"></td>
+            <td>产品：</td>
+            <td><input type="text" id="product"></td>
+        </tr>
+        <tr>
+            <td>价格计量单位：</td>
+            <td><input type="text" id="priceUnite"></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <div align="center">
+        <button id="generate" onclick="generateFun()" >生成</button><br><br>
+
+    </div>
+    <div>
+        <textarea id="area" cols="200" rows="10"></textarea>
+    </div>
+
+</body>
+</html>
