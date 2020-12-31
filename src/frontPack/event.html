@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function showHellow() {
+            alert("hello JS");
+        }
+
+        function f1() {
+            document.write("调用f1<br>");
+        }
+
+        f1();
+
+        try{
+            document.write("调用不存在的函数f2<br>");
+            f2();
+        }catch(e) {
+            document.write("捕获到错误<br>");
+            document.write(e.message);
+        }
+
+        document.write("<p>因为错误被捕捉了，所以后续的代码能够继续执行</p>");
+
+    </script>
+</head>
+<body>
+
+<!--    <button onclick="showHellow()">点击一下</button>-->
+
+</body>
+</html>

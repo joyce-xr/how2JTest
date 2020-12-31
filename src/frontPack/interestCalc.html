@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function $(id){
+            var value = document.getElementById(id).value;
+            return value;
+        }
+
+        function calc1(){   //固定本金，不再追加
+            // 本金=10000
+            // 收益=5%
+            // 第一年：10000+10000*5%=100500=10000*（1+5%）
+            // 第二年：10000*（1+5%）*（1+5%）
+
+
+            var capital = $("p");
+            var rate = $("r");
+            var years = $("n");
+
+            var sum = capital;
+
+            for(var i=1;i<=years;i++){
+                sum = sum*(1+(rate/100));
+            }
+
+            document.getElementById("F").value=sum;
+        }
+
+        function calc2(){   //每年追加固定额度
+            //本金=10000
+            //收益=5%
+            //每年追加10000
+            //第一年：10000*（1+5%）+10000
+            //第二年：（10000*（1+5%）+10000）*（1+5%）+10000
+
+            var capital = $("p");
+            var rate = $("r");
+            var years = $("n");
+            var ap = $("a");
+
+            var sum = capital;
+            //alert(years);
+
+            for(var i=1; i<=years;i++){
+                //alert("循环1");
+                sum = (sum*(1+(rate/100))+1);
+            }
+            alert(sum);
+
+            document.getElementById("F").value=sum;
+
+        }
+
+    </script>
+
+</head>
+<body>
+
+<table border="1" cellspacing="0" >
+    <tr align="center">
+        <td width="100px" class="left">起始资金</td>
+        <td width="300px" class="right"><input id="p">  ￥</td>
+    </tr>
+    <tr align="center">
+        <td width="100px" class="left">每年收益</td>
+        <td width="300px" class="right"><input id="r">  %</td>
+    </tr>
+    <tr align="center">
+        <td width="100px" class="left">复利年数</td>
+        <td width="300px" class="right"><input id="n">  年</td>
+    </tr>
+    <tr align="center">
+        <td width="100px" class="left">每年追加资金</td>
+        <td width="300px" class="right"><input id="a">  ￥</td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><button onclick="calc2()" >计算</button></td>
+    </tr>
+    <tr align="center">
+        <td width="100px" class="left">总收益</td>
+        <td width="300px" class="right"><input id="F"></td>
+    </tr>
+</table>
+
+</body>
+</html>

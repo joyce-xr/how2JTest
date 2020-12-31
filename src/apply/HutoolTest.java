@@ -7,7 +7,6 @@ import cn.hutool.core.lang.Validator;
 import cn.hutool.core.text.UnicodeUtil;
 import cn.hutool.crypto.digest.MD5;
 import cn.hutool.extra.ftp.Ftp;
-import cn.hutool.extra.qrcode.QrCodeException;
 import cn.hutool.extra.qrcode.QrCodeUtil;
 import org.apache.commons.net.ftp.FTP;
 import org.testng.annotations.Test;
