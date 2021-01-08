@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function calcAge() {
+            var year = document.getElementById("year").value;
+            var month = document.getElementById("month").value;
+            var day = document.getElementById("day").value;
+
+            var now = new Date();
+
+            var age = now.getFullYear() - year;
+
+            if((now.getMonth()+1 < month)  ||  (now.getMonth()+1 == month) && (now.getDate() < day)){
+                age--;
+            }
+
+            document.getElementById("age").innerHTML=age;
+        }
+
+        function addYearOption() {
+            var element = document.getElementById("year");
+
+            if(element.options.length ==1){
+                for(var i = 1980; i<2021;i++){
+                    element.add(new Option(i));
+                }
+            }
+        }
+
+        function addMonthOption() {
+            var element = document.getElementById("month");
+
+            if(element.options.length ==1){
+                for(var i = 1; i<13;i++){
+                    element.add(new Option(i));
+                }
+            }
+        }
+
+        function addDayOption() {
+            var element = document.getElementById("day");
+
+            if(element.options.length ==1){
+                for(var i = 1; i<32;i++){
+                    element.add(new Option(i));
+                }
+            }
+        }
+
+        window.onload = function(){addYearOption();addMonthOption();addDayOption();}	//初始化加载js函数
+    </script>
+
+
+</head>
+<body>
+
+<p><b>请输入出生年月日</b></p>
+年份
+<select id="year">
+    <option>--请选择--</option>
+</select>
+月份
+<select id="month">
+    <option>--请选择--</option>
+</select>
+日
+<select id="day">
+    <option>--请选择--</option>
+</select>
+
+
+<p><button onclick="calcAge()" >计算年龄</button><br>
+<p>今年 <span id="age">&nbsp;</span> 岁
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <script>
+
+        function aboutWindow(){
+            document.write("文档内容<br>");
+            document.write("文档显示区域的宽度" + window.innerWidth + "<br>");
+            document.write("文档显示区域的高度" + window.innerHeight + "<br>");
+            document.write("浏览器的宽度" + window.outerWidth + "<br>");
+            document.write("浏览器的高度" + window.outerHeight + "<br>");
+        }
+        //aboutWindow();
+
+        function openNewWindow() {
+            window.open("https://www.baidu.com/");
+        }
+        
+        function aboutBrowser() {
+            document.write("<p>浏览器产品名");
+            document.write(navigator.appName + "</p>");
+
+            document.write("<p>浏览器版本号：");
+            document.write(navigator.appVersion + "</p>");
+
+            document.write("<p>浏览器内部代码：");
+            document.write(navigator.appCodeName + "</p>");
+
+            document.write("<p>操作系统：");
+            document.write(navigator.platform + "</p>");
+
+            document.write("<p>是否启用Cookies：");
+            document.write(navigator.cookieEnabled + "</p>");
+
+            document.write("<p>浏览器的用户代理报头：");
+            document.write(navigator.userAgent + "</p>");
+        }
+
+        //aboutBrowser();
+
+        function aboutScreen() {
+            document.write("用户的屏幕分辨率: ")
+            document.write(screen.width + "*" + screen.height)
+            document.write("<br />")
+            document.write("可用区域大小: ")
+            document.write(screen.availWidth + "*" + screen.availHeight)
+            document.write("<br />")
+        }
+
+        //aboutScreen();
+    </script>
+
+</head>
+<body>
+
+<button onclick="openNewWindow()">百度一下</button>
+<a href="frontPack/bomTestChild.html">戳一戳</a>
+
+</body>
+</html>

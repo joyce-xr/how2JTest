@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+
+        // var x = new Number(123);
+        // document.write('数字对象x的值:'+x);
+        // document.write("<br>");
+        // document.write('数字对象x的类型:'+typeof x); //通过typeof 获知这是一个object
+        // document.write("<br>");
+        // var y = 123;
+        // document.write('基本类型y的值:'+y);
+        // document.write("<br>");
+        // document.write('基本类型y的类型:'+typeof y); //通过typeof 获知这是一个number
+        //
+        // document.write("<br><br><br>");
+        //
+        // var a = new Number(3.1415926);
+        // document.write("变量a的值："+ a);
+        // document.write("<br>");
+        // document.write("变量a保留3小数：" + a.toFixed(3));
+        // document.write("<br><br><br>");
+        //
+        // var s1 = "666";
+        // var s2 = new String(s1);
+        // document.write("s1的长度：" + s1.length);
+        // document.write("<br>");
+        // document.write("s2的长度：" + s2.length);
+
+
+
+        function  p(s) {
+            document.write(s);
+            document.write("<br>");
+        }
+
+        //数组拼接；pop；push
+        function fConcat() {
+            var x = new Array(3,1,4);
+            p("遍历数组x：");
+            for(var i=0; i<x.length; i++){
+                p(x[i]);
+            }
+
+            var y = new Array(1,5,9,2,6);
+            p("数组y是：" + y);
+
+            p("x+y 是：" + x.concat(y));
+
+            p("数组x使用#分隔符：" + x.join("#"));
+
+            x.push(5);
+            p("向数组x  push 5 后：" + x);
+
+            p("从数组xpop1 ："+x.pop());
+            p("从数组xpop2 ："+x.pop());
+            p("两次pop后数组x： " + x);
+        }
+
+        //fConcat();
+
+        //自定义排序
+        function comparator(a,b){
+            return b-a;
+        }
+
+        function defSort(){
+            var x = new Array(85,3,68,45,2,7,28,1,8,4);
+            p("数组x是：" + x);
+            x.sort(comparator);
+            p("数组x排序后：" + x);
+        }
+        //defSort();
+
+        function fDate(){
+            var d = new Date();
+            p("new Date() === " + d);
+            p("获取当前时间年月日：" + d.getFullYear() + "/" + (d.getMonth()+1) +"/"+d.getDate());
+            p("获取当前时间的时分秒毫秒：" + d.getHours() +":"+d.getMinutes()+":"+d.getSeconds()+":"+d.getMilliseconds());
+
+            p("获取当前时间是一周的第几天："+d.getDay());
+
+        }
+
+        //fDate();
+
+        function getLastMonday(){
+            var d = new Date();
+
+            // d.setFullYear(2021);
+            // d.setMonth(2);//实际月份是set值+1
+            // d.setDate(5);
+
+            p("日期：" + d.getFullYear() + "/" + (d.getMonth()+1) +"/"+d.getDate());
+            p("星期：" + d.getDay());
+            p("获取上周一的日期: ");
+            if(d.getDate() > d.getDay() +7){//上周是为本月---------------本月
+                p(d.getFullYear() + "/" + (d.getMonth()+1) +"/"+(d.getDate()-d.getDay()-7+1));
+
+            }else if(d.getMonth() == 0){//上周不是本年(当前是1月，且上周不是本月)-----------------跨年
+
+                var short = d.getDay() + 7 - d.getDate();//上月倒数第几天是周一
+
+                d.setFullYear(d.getFullYear()-1);//上一年
+                d.setMonth(11);//12月
+                var nd = new Date(d.getFullYear(), d.getMonth(), 31 - short+1);
+                p(nd.getFullYear() + "/" + (nd.getMonth()+1) +"/"+nd.getDate());
+
+            } else{//上周不是本月,是本年
+                var short = d.getDay() + 7 - d.getDate();//上月倒数第几天是周一-----------------跨月
+                var nd = new Date(d.getFullYear(), d.getMonth(), 0 - short+1);
+                p(nd.getFullYear() + "/" + (nd.getMonth()+1) +"/"+nd.getDate());
+            }
+        }
+
+        //getLastMonday();
+
+
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>
