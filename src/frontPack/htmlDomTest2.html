@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--焦点事件-->
+<input id="input1" placeholder="请输入" onblur="b()" onfocus="f()">
+
+</body>
+
+<script>
+    function b() {
+        document.getElementById("input1").attributes["placeholder"].nodeValue= "请输入";
+    }
+
+    function f() {
+        document.getElementById("input1").attributes["placeholder"].nodeValue= "";
+    }
+</script>
+
+</html>

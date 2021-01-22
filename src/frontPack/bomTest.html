@@ -52,13 +52,90 @@
         }
 
         //aboutScreen();
+
+        function printNow(){
+            var d = new Date();
+            document.write(d.getHours() + ":");
+            document.write(d.getMinutes() + ":");
+            document.write(d.getSeconds() + ":");
+            document.write(d.getMilliseconds());
+            document.write("<br>");
+        }
+        //printNow();
+        
+        function refresh() {
+            location.reload();
+        }
+
+        function p(s){
+            document.write(s);
+            document.write("<br>");
+        }
+
+        function aboutLocation(){
+            p("协议 location.protocol:"+location.protocol);
+            p("主机名 location.hostname:"+location.hostname);
+            p("端口号 (默认是80，没有即表示80端口)location.port:"+location.port);
+
+            p("主机加端口号 location.host: "+location.host);
+            p("访问的路径  location.pathname: "+location.pathname);
+
+            p("锚点 location.hash: "+location.hash);
+            p("参数列表 location.search: "+location.search);
+        }
+
+        //aboutLocation();
+
+        function del(){
+            var d = confirm("是否要删除？");
+            if(d){
+                alert("删除成功");
+            }else {
+                alert("删除操作已撤销");
+            }
+        }
+        
+        function aboutPromot() {
+            var name = prompt("请输入用户名：");
+            alert("您输入的用户名是:" + name);
+
+        }
+
+
+        var t = setInterval(printtime,1000);
+        function printtime(){
+            var d = new Date();
+            var h = d.getHours();
+            var m = d.getMinutes();
+            var s = d.getSeconds();
+            document.getElementById("time").innerHTML = h+":" +m +":"+s;
+            if(s%5==0){
+                clearInterval(t);
+            }
+        }
+
+        function  showTimeIn3Seconds() {
+            setTimeout(printtime,3000);
+        }
+
     </script>
 
 </head>
 <body>
 
-<button onclick="openNewWindow()">百度一下</button>
-<a href="frontPack/bomTestChild.html">戳一戳</a>
+<!--<button onclick="openNewWindow()">百度一下</button>-->
+<!--<a href="http://localhost:63342/how2JTest/frontPack/bomTestChild.html">戳一戳</a>-->
+
+<!--<p><button onclick="refresh()">刷新</button>-->
+
+<!--<button onclick="del()">删除</button>-->
+
+<!--<button onclick="aboutPromot()">请输入用户名</button>-->
+
+<p>当前时间：</p>
+<div id="time"></div>
+<!--<button onclick="showTimeIn3Seconds()">点击后3秒钟后显示当前时间，并且只显示一次</button>-->
+
 
 </body>
 </html>

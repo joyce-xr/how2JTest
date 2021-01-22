@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        td{
+            width: 200px;
+            height: 35px;
+            text-align: center;
+            border-bottom: solid;
+            border-bottom-color: darkgray;
+            border-bottom-width: 1px;
+        }
+        .c1{
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+
+<!--<div id="d1" align="left" class="abc">hello html dom</div-->
+<!--<p><button onclick="testInnerHtmlValue()">点击输入姓名</button></p>-->
+<!--<div id="divName"></div>-->
+<!--<input id="inputName" class="nameClass" value="请输入..."   test="selfAtt"/>-->
+<!--<button onclick="getInputAtt()">获取input的属性</button>-->
+<!--<div id="result1"></div>-->
+<!--<div id="result2"></div>-->
+<!--<div id="result3"></div>-->
+<!--<div id="result4"></div>-->
+<!--<div id="result5"></div>-->
+
+<!--<button onclick="modifydiv1()">通过内容节点方式改变div的内容</button>-->
+<!--<button onclick="modifydiv2()">通过innerHTML改变div的内容</button>-->
+
+
+<!--以下是练习题-->
+<!--111111验证账号是否已经存在（是a或A开头即为已存在）-->
+<!--<input id="accountName"/>-->
+<!--<button onclick="validate()">验证</button>-->
+
+
+<!--222222切换不同的图片-->
+<!--<img src="logo1.jpg" width="200" height="200" onclick="changePic2()" id="i">-->
+<!--<div id="result1"></div>-->
+
+<!--333333判断输入框里的值，是否是整数-->
+<!--<input id="inputNum"/>-->
+<!--<button onclick="validateInt()">验证</button>-->
+
+<!--<div id="d">这是一个div</div>-->
+<!--<button onclick="hide()">隐藏div</button>-->
+<!--<button onclick="show()">显示div</button>-->
+
+
+<!--Dom样式练习：表格斑马线-->
+<table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>id</td>
+        <td>名称</td>
+        <td>血量</td>
+        <td>上海</td>
+    </tr>
+    <tr class="c1">
+        <td>1</td>
+        <td>gareen</td>
+        <td>120</td>
+        <td>330</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>teemo</td>
+        <td>500</td>
+        <td>230</td>
+    </tr>
+    <tr class="c1">
+        <td>3</td>
+        <td>annie</td>
+        <td>150</td>
+        <td>450</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>deadbrother</td>
+        <td>650</td>
+        <td>50</td>
+    </tr>
+</table>
+
+
+</body>
+<script>
+    
+    function p(s) {
+        document.write(s);
+        document.write("<br>");
+    }
+
+    function f1(){
+        var div1 = document.getElementById("d1");
+        p("文档节点"+document);
+        p("元素"+div1);
+        p("属性节点" + div1.attributes[0]);
+        p("内容节点" + div1.childNodes[0]);
+    }
+
+    function f2() {
+        var div1 = document.getElementById("d1");
+        var as = div1.attributes;
+        p("div1共有"+as.length+"个属性");
+        p("分别是：");
+        for(var i=0; i<as.length; i++){
+            p(as[i].nodeName + ":"+as[i].nodeValue);
+        }
+        p("div1的id属性值：" + as["id"].nodeValue);
+    }
+    //f2();
+
+    function f3() {
+        var div1 = document.getElementById("d1");
+        var child = div1.childNodes;
+        p("div1共有"+child.length+"个childNodes");
+        p("div1的内容节点名为："+ child[0].nodeName);
+        p("div1的内容节点值为："+ child[0].nodeValue);
+    }
+    //f3();
+
+    function testInnerHtmlValue() {
+        var name = prompt("请输入姓名：");
+        document.getElementById("divName").innerHTML = "您输入的姓名是："+name;
+    }
+
+    function modifydiv1() {
+        document.getElementById("d1").childNodes[0].nodeValue = "通过childNode[0].value改变内容";
+    }
+    function modifydiv2() {
+        document.getElementById("d1").innerHTML = "通过innerHTML改变内容";
+    }
+
+    function getInputAtt() {
+        var input = document.getElementById("inputName");
+        document.getElementById("result1").innerHTML = input.id;
+        document.getElementById("result2").innerHTML = input.value;
+        document.getElementById("result3").innerHTML = input.className;
+        document.getElementById("result4").innerHTML = input.getAttribute("test");//直接取得属性值
+        document.getElementById("result5").innerHTML = input.attributes["test"].nodeValue;
+    }
+
+    function validate(){
+
+        var account = document.getElementById("accountName").value;
+        if(account.startsWith("a") || account.startsWith("A")){
+            alert("账号已存在");
+        }else {
+            alert("验证成功");
+        }
+    }
+
+    function changePic1() {//使用src属性切换图片
+        var picSrc = document.getElementsByTagName("img")[0];
+        //document.getElementById("result1").innerHTML = picSrc.src;
+        picSrc.src="logo2.jpg";
+    }
+
+    function changePic2() {//使用属性节点切换图片
+        var picSrc = document.getElementsByTagName("img")[0];
+        picSrc.attributes["src"].nodeValue = "logo2.jpg";
+    }
+    
+    function validateInt() {
+        var v = document.getElementById("inputNum").value;
+        var num = Number(v);
+        if(isNaN(num)  ||  v.includes(".")){
+            alert("不是数字");
+        }else {
+            alert("是数字");
+        }
+    }
+
+    function hide() {
+        var d = document.getElementById("d");
+        d.style.display="none";
+    }
+    function show() {
+        var d = document.getElementById("d");
+        d.style.display="block";
+    }
+
+
+
+</script>
+</html>
