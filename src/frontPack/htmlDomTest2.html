@@ -6,7 +6,15 @@
 </head>
 <body>
 <!--焦点事件-->
-<input id="input1" placeholder="请输入" onblur="b()" onfocus="f()">
+<!--<input id="input1" placeholder="请输入" onblur="b()" onfocus="f()">-->
+
+<!--提交事件-->
+<form onsubmit="login()">
+    账号：<input type="text" name="name"><br>
+    密码：<input type="password" name="psswd"><br>
+<!--    <button>登录</button>-->
+    <input type="submit" value="登录">
+</form>
 
 </body>
 
@@ -17,6 +25,10 @@
 
     function f() {
         document.getElementById("input1").attributes["placeholder"].nodeValue= "";
+    }
+
+    function login() {
+        alert("登录");
     }
 </script>
 
