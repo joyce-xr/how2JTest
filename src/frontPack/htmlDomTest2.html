@@ -3,18 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <style>
+        a.head{font-size:14px;	color: CornflowerBlue;	text-decoration: none;}
+        div#menu {display:none;	width:70px;	border: 1px solid lightgray;	margin-top:15px;	position: absolute;	}
+        div#menu a{
+            display:block;	font-size:14px;	font-family:宋体;	color: #888;	text-decoration: none;
+            padding: 10px 0px 10px 15px;
+            /*padding-top: 10px;*/
+            /*padding-bottom: 0px;*/
+            /*padding-left: 10px;*/
+            /*padding-right: 15px;*/
+        }
+        div#menu a:hover{background-color: #f1f1f1;}
+    </style>
 </head>
 <body>
 <!--焦点事件-->
 <!--<input id="input1" placeholder="请输入" onblur="b()" onfocus="f()">-->
 
 <!--提交事件-->
-<form onsubmit="login()">
-    账号：<input type="text" name="name"><br>
-    密码：<input type="password" name="psswd"><br>
-<!--    <button>登录</button>-->
-    <input type="submit" value="登录">
-</form>
+<!--<form onsubmit="login()">-->
+<!--    账号：<input type="text" name="name"><br>-->
+<!--    密码：<input type="password" name="psswd"><br>-->
+<!--&lt;!&ndash;    <button>登录</button>&ndash;&gt;-->
+<!--    <input type="submit" value="登录">-->
+<!--</form>-->
+
+
+
+<!--<input type="submit" onmouseover="displayWeaponList()" value="武器">-->
+<a href="" class="head" onmouseover="displayWeaponList(this)">武器</a>
+<a href="" class="head" onmouseover="displayWeaponList(this)">护甲</a>
+<div id="menu" style="display: none">
+    <a href="">武器1</a>
+    <a href="">武器2</a>
+    <a href="">武器3</a>
+    <a href="">武器4</a>
+</div>
+
 
 </body>
 
@@ -30,6 +57,27 @@
     function login() {
         alert("登录");
     }
+
+    function displayWeaponList(e) {
+        var menu = document.getElementById("menu");
+        var menu_a = menu.getElementsByTagName("a");
+        if (e.innerText == '武器') {
+            menu.style.display = "block";
+            menu.style.left = '10px';
+            menu_a[0].innerText = '武器1';
+            menu_a[1].innerText = '武器2';
+            menu_a[2].innerText = '武器3';
+            menu_a[3].innerText = '武器4';
+        } else if (e.innerText == '护甲') {
+            menu.style.display = "block";
+            menu.style.left = '40px';
+            menu_a[0].innerText = '护甲1';
+            menu_a[1].innerText = '护甲2';
+            menu_a[2].innerText = '护甲3';
+            menu_a[3].innerText = '护甲4';
+        }
+    }
+
 </script>
 
 </html>
